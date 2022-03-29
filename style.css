@@ -1,0 +1,143 @@
+/* Colors and fonts */
+head{
+}
+
+body {
+	background: #0F0506;
+	text-align: center;
+	margin: 0px auto;
+}
+
+.introduction_body {
+	z-index: 0;
+	position: relative;
+	margin: 0px auto;
+	padding: 50px 50px 50px 50px;
+	z-index: 100;
+	background-image: url(images/sunrise.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.introduction_div {
+	margin: 0px auto;
+	padding: 30px 10px 10px 10px;
+	width: 815px;
+	z-index: 100;
+}
+
+.quotation_div {
+	margin: 15px 15px 15px 15px;
+	padding: 5px 5px 5px 5px;
+	width: 775px;
+	z-index: 100;
+
+}
+
+.quotation_mark_1 {
+	font-family: 'Plyfair Display', serif;
+	color: #EAEBF9;
+	font-size: 64px;
+	text-align: left;
+	display: block;
+	margin: 0px auto;
+	padding: 30px 10px 10px 10px;
+	z-index:100;
+}
+
+.quotation_mark_2 {
+	font-family: 'Plyfair Display', serif;
+	color: #EAEBF9;
+	font-size: 64px;
+	text-align: right;
+	display: block;
+  margin: 0px auto;
+  padding: 30px 10px 10px 10px;
+  z-index: 100;
+}
+
+.introduction_quote_text {
+	font-family: 'Plyfair Display', serif;
+	color: #EAEBF9;
+	font-size: 34px;
+	margin: 0px auto;
+	padding: 10px 10px 10px 10px;
+	display: block;
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	z-index: 100;
+}
+
+.quote_div {
+	margin: 0px auto;
+	padding: 5px 5px 5px 5px;
+	width: 775px;
+	z-index: 100;
+
+}
+
+.introduction_quote_signature {
+	font-family: 'Plyfair Display', serif;
+	color: #EAEBF9;
+	font-size: 25px;
+	text-align: right;
+	display: block;
+ 	margin: 0px auto;
+  padding: 10px 10px 10px 10px;
+}
+
+.introduction_text {
+	font-family: 'Poppins', sans-serif;
+	color: #C4DDFC;
+	font-size: 17px;
+	text-align: left;
+	display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 15px;
+  margin-inline-end: 15px;
+  padding: 50px 10px 10px 10px;
+}
+
+h1{
+	color: #F83A03;
+	font-family: 'Plyfair Display', serif;	
+	font-size: 84px;
+	display: block;
+  margin-block-start: 7em;
+  margin-block-end: 0.5em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  z-index: 100;
+}
+
+h2{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 40px;
+	color: #F65900;
+	display: block;
+  margin-block-start: 0.2em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  z-index: 100;
+}
+
+a{
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	color: #FD7902;
+	font-size: 10px;
+}
+
+#profile_picture {
+	object-fit: cover;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	z-index: 100;
+}
